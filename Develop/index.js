@@ -1,48 +1,46 @@
 // TODO: Include packages needed for this application
-const fs = require ("fs")
+const fs = require ('fs')
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
-const markdown = require ("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
 const questions = [
 {
     type: 'input',
-    message: "What is the title of your project?",
-    name: 'projecttitle',
+    message: "What is the title of your project? ",
+    name: 'title',
 
 },
 {
     type: 'input',
-    message: "Please provide a description of your project.",
+    message: 'Please provide a description of your project: ',
     name: 'description',
 
-}
+},
 {
     type: 'input',
-    message: 'Please provide any installation instructions for your project.',
+    message: 'Please provide any installation instructions for your project: ',
     name: 'installation',
-    default: 'npm i',
     
 },
 {
     type: 'input',
-    message: 'Please provide usage information for project.',
+    message: 'Please provide usage information for your project: ',
     name: 'usage',
 },
 {
     type: 'input',
-    message: 'Please provide any contributors to the project.',
+    message: 'Please provide any contributors to the project: ',
     name: 'contributors',
 },
 {
     type: 'input',
-    message: 'Please provide any test instructions for the project.',
-    name: 'test',
+    message: 'Please provide any test instructions for the project: ',
+    name: 'tests',
 },
 {
     type: 'list',
-    message: 'Please choose any licenses you used',
+    message: 'Please choose any licenses you have used: ',
     choices:['GNU AGPLv3', 'GNU GPLv3',
     'GNU LGPLv3', 'Mozilla Public License 2.0',
     'Apache License 2.0', 'MIT License', 'Boost Software License 1.0',
@@ -51,23 +49,18 @@ const questions = [
 },
 {
     type: 'input',
-    message: 'What is your name?',
+    message: 'What is your name? ',
     name: 'name',
 },
 {
     type: 'input',
-    message: 'What is your github username?',
+    message: 'What is your github username? ',
     name: 'github',
 },
 {
     type: 'input',
-    message: 'What is your email address?',
+    message: 'What is your email address? ',
     name: 'email',
-},
-{
-    type: 'input',
-    message: 'Please provide deployment url.',
-    name: 'deploymenturl',
 },
 
 ];
