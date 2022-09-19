@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-  
+
   ${data.description}
 
   ## Table of Contents
@@ -74,7 +74,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you should have any questions about project, please visit github at [https:/github.com/${data.username}/](https://github.com/${data.username}/) or email me at ${data.email}
+  If you should have any questions about project, please visit github at [https:/github.com/${data.username}](https://github.com/${data.username}/) or email me at ${data.email}
 `;
 }
 
