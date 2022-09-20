@@ -60,6 +60,7 @@ const questions = [
     name: 'email',
 },
 
+
 {
     type: 'input',
     message: 'Place link to screenshot here: ',

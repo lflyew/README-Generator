@@ -1,9 +1,9 @@
-# README Generator
+# README-Generator
 
 
   ## Description
 
-  A step by step user input through node to generate a well organized, professional and detailed README file.
+  A step-by-step user input through node to generate a well organized, professional, and detailed README file for project.
 
   ## Table of Contents
   - [Description](#description)
@@ -13,19 +13,19 @@
   - [License](#license)
   - [Test](#tests)
   - [Questions](#questions)
+  - [Repository](#repository)
   - [Screenshot](#screenshot)
 
 
   ## Installation
    To run this application you will neeed to install the following: 
 
-  Install all necessary JSON packages.  Use 'npm i' to install Inqquirer.
+  Install all necessary JSON packages.  Use 'npm i' to install Inquirer.
 
   ## Usage
 
-  The following features are included: 
 
-  Open Terminal after copying and cloning repository.  Type node index.js in terminal.  You will then be prompted with a series of Questions. Fill in Answers, once completed a README file will be generated for preview.
+  Open Terminal after copying and cloning repository.  Type node index.js in terminal and you will then be prompted with a series of questions.  Fill in answers and once completed a README file will be generated for preview.
 
   ## Contributors
 
@@ -43,6 +43,7 @@
   ## Questions
 
   If you should have any questions about project, please visit github at [https:/github.com/lflyew](https://github.com/lflyew/) or email me at lflyew@gmail.com
+
 
   ## Screenshot
 
